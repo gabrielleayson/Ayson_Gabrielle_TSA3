@@ -1,0 +1,98 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+	cout << left;
+
+	cout << setw(15) << "Day"
+		<< setw(20) << "Time"
+		<< setw(18) << "Course Code"
+		<< setw(12) << "Section"
+		<< "Room" << endl;
+
+	cout << "-----------------------------------------------------------------------------" << endl;
+
+	cout << setw(15) << "Tuesday"
+		<< setw(20) << "7:00 - 9:40"
+		<< setw(18) << "CCS0001"
+		<< setw(12) << "TN02"
+		<< "Online" << endl;
+
+	cout << setw(15) << "Tuesday"
+		<< setw(20) << "11:00 - 12:50"
+		<< setw(18) << "GED0011"
+		<< setw(12) << "TN02"
+		<< "Asynchronous" << endl;
+
+	cout << setw(15) << "Tuesday"
+		<< setw(20) << "1:00 - 2:20"
+		<< setw(18) << "GED0006"
+		<< setw(12) << "TN02"
+		<< "Online" << endl;
+
+	cout << endl;
+
+	cout << setw(15) << "Wednesday"
+		<< setw(20) << "7:00 - 9:50"
+		<< setw(18) << "CCS0001L"
+		<< setw(12) << "TN02"
+		<< "F702" << endl;
+
+	cout << setw(15) << "Wednesday"
+		<< setw(20) << "11:00 - 12:50"
+		<< setw(18) << "GED0004"
+		<< setw(12) << "TN02"
+		<< "301" << endl;
+
+	cout << setw(15) << "Wednesday"
+		<< setw(20) << "1:00 - 2:50"
+		<< setw(18) << "GED0009"
+		<< setw(12) << "TN02"
+		<< "F505" << endl;
+
+	cout << endl;
+
+	cout << setw(15) << "Thursday"
+		<< setw(20) << "7:00 - 9:50"
+		<< setw(18) << "CCS0003L"
+		<< setw(12) << "TN02"
+		<< "F702" << endl;
+
+	cout << endl;
+
+	cout << setw(15) << "Friday"
+		<< setw(20) << "7:00 - 9:40"
+		<< setw(18) << "CCS0003"
+		<< setw(12) << "TN02"
+		<< "Online" << endl;
+
+	cout << setw(15) << "Friday"
+		<< setw(20) << "11:00 - 12:50"
+		<< setw(18) << "GED0011"
+		<< setw(12) << "TN02"
+		<< "Online" << endl;
+
+	cout << setw(15) << "Friday"
+		<< setw(20) << "1:00 - 2:20"
+		<< setw(18) << "GED0006"
+		<< setw(12) << "TN02"
+		<< "Asynchronous" << endl;
+
+	cout << endl;
+
+	cout << setw(15) << "Saturday"
+		<< setw(20) << "11:00 - 12:50"
+		<< setw(18) << "GED0004"
+		<< setw(12) << "TN02"
+		<< "F301" << endl;
+
+	cout << setw(15) << "Saturday"
+		<< setw(20) << "1:00 - 2:50"
+		<< setw(18) << "GED0009"
+		<< setw(12) << "TN02"
+		<< "F505" << endl;
+
+	return 0;
+}
