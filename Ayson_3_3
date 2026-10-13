@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int n1;
+	int n2;
+	int Sum;
+	int Difference;
+	int Product;
+	int Remainder;
+	double Quotient;
+
+	cout << "Enter First Number: ";
+	cin >> n1;
+
+	cout << "Enter Second Number: ";
+	cin >> n2;
+
+	Sum = n1 + n2;
+	Difference = n1 - n2;
+	Product = n1 * n2;
+	Remainder = n1 % n2;
+	Quotient = n1 / n2;
+
+	cout << "\n-----------Answers-----------" << endl;
+
+	cout << "Sum: " << Sum << endl;
+	cout << "Difference: " << Difference << endl;
+	cout << "Product: " << Product << endl;
+	cout << "Remainder: " << Remainder << endl;
+	cout << "Quotient: " << Quotient << endl;
+
+	return 0;
+
+}
